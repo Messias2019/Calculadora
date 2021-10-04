@@ -1,10 +1,8 @@
 ## Bem-vindo ao meu Repositório
 
-You can use the [editor on GitHub](https://github.com/Messias2019/Calculadora/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Esse espáço é para o compartilhamento de código e projetos que precisam ser compatilhados com a FIAP via WEB.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Atividade Fiap: CAP 3 - C, A LINGUAGEM PRIMORDIAL - O FUTURO SE ESCREVE COM C
+### Atividade FIAP: CAP 3 - C, A LINGUAGEM PRIMORDIAL - O FUTURO SE ESCREVE COM C
 
 Seu gestor na Almourol lhe deu a missão de estudar os fundamentos de IoT, e como não poderia ser diferente, você começou com a Linguagem C.
 
