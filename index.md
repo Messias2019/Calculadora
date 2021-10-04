@@ -9,21 +9,42 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+Código da calculadora
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+#include <stdio.h>
+int main(void){
+     float a=0, b=0, result=0;
+     int ope=0;
+     do{
+         printf("\n\t1 - SOMA\n\t2 - SUBTRAÇÃO\n\t3 - MULTIPLICAÇÃO\n\t4 - DIVISÃO \n");
+         printf("\nEscolha uma opção: ");
+         scanf("%d", &ope);
+         printf("\nDigite o priemiro número: ");
+         scanf("%f", &a);
+         printf("\nDigite o segundo número: ");
+         scanf("%f", &b);
+         switch(ope){
+             case 1:
+                result = a+b;
+                break;
+             case 2:
+                result = a-b;
+                break;
+             case 3:
+                result = a*b;
+                break;
+             case 4:
+                result = a/b;
+                break;
+             default:
+                printf("\n Digite uma opção valida\n");
+                break;
+        }
+         printf("\n\t O resultado da operação é: %0.2f", result);
+         printf("\n Digite 1 para continuar: ");
+         scanf("%i", &ope);
+    }while(ope==1);
+}
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
